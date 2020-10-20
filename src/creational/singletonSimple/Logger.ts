@@ -17,14 +17,4 @@ export class Logger {
     }
 }
 
-export class Singleton {
-    private static instance: Logger
-    private constructor() {}
-
-    public static getInstance(): Logger {
-        if (!Singleton.instance) {
-            Singleton.instance = new Logger()
-        }        
-        return Singleton.instance
-    }
-}
+export const loggerSingleton = new Logger()
