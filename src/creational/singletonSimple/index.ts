@@ -3,7 +3,7 @@ import { Payment } from './Payment'
 
 const myLogger: Logger = loggerSingleton
 
-myLogger.log('hello world')
+myLogger.log('Starting the payment processor app.')
 myLogger.log(myLogger.count.toString())
 
 const myPayment: Payment = new Payment()
