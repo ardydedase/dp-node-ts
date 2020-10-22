@@ -1,7 +1,9 @@
 export class Logger {
     private logs: object[]
+    // Use the `Logger` type
     private static instance: Logger
-    
+
+    // Use a private constructor
     private constructor() {
         this.logs = []
     }
@@ -10,6 +12,7 @@ export class Logger {
         return this.logs.length
     }
 
+    // Ensure that there is only one instance created
     public static getInstance(): Logger {
         if (!Logger.instance) {
             Logger.instance = new Logger()

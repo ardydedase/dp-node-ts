@@ -1,12 +1,13 @@
 import { Logger } from './Logger'
 import { Payment } from './Payment'
 
+// Retrieve the Singleton instance
 const myLogger: Logger = Logger.getInstance()
 
 myLogger.log('Starting the payment processor app.')
-myLogger.log(myLogger.count.toString())
+console.log('Log count: ' + myLogger.count.toString())
 
 const myPayment: Payment = new Payment()
 myPayment.process(3)
 
-myLogger.log(myLogger.count.toString())
+console.log('Log count: ' + myLogger.count.toString())
