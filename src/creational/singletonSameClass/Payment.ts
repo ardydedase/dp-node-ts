@@ -1,6 +1,7 @@
 import { Logger } from './Logger'
 
 export class Payment {
+    // Retrieve the Singleton instance
     private paymentLogger: Logger = Logger.getInstance()
     constructor() {
         this.paymentLogger.log('payment instance constructed')

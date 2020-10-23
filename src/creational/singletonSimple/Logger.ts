@@ -1,5 +1,6 @@
 export class Logger {
     private logs: object[]
+    // Make the constructor public
     constructor() {
         this.logs = []
     }
@@ -17,4 +18,5 @@ export class Logger {
     }
 }
 
+// Export a new Instance of the Logger class
 export const loggerSingleton = new Logger()
