@@ -1,3 +1,5 @@
+// Logger.ts
+
 export class Logger {
     private logs: object[]
     constructor() {

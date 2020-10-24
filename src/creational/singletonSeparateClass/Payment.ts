@@ -1,3 +1,5 @@
+// Payment.ts
+
 import { Singleton, Logger } from './Logger'
 
 export class Payment {

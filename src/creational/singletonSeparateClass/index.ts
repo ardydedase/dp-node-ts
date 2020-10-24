@@ -1,3 +1,5 @@
+// index.ts
+
 import { Logger, Singleton } from './Logger'
 import { Payment } from './Payment'
 
