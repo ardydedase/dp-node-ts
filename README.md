@@ -1,8 +1,14 @@
 # Design patterns in TypeScript with Node
 
-## Singleton
+## Setup
 
-### Problem: Keep a single instance of the Logger class
+Tested on node 10
+
+    npm install
+
+## Creational: Singleton
+
+### Problem: Maintain a single instance of the Logger class
 
     tsc && node dist/creational/singleton/problem/index.js
 
@@ -16,4 +22,4 @@
 
 ### Solution #3: The easiest way - module singletons
     
-    tsc && node dist/creational/singleton/simple/index.js
+    tsc && node dist/creational/singleton/separateClass/index.js
