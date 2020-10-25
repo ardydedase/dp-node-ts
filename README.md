@@ -16,4 +16,4 @@
 
 ### Solution #3: The easiest way - module singletons
     
-    tsc && node dist/creational/singleton/separateClass/index.js
+    tsc && node dist/creational/singleton/simple/index.js
