@@ -8,6 +8,9 @@ Tested on node 10
 
 ## Creational: Singleton
 
+Blog post: [3 Ways to Implement the Singleton Pattern in TypeScript with Node.js
+](https://wickedmanok.medium.com/3-ways-to-implement-the-singleton-pattern-in-typescript-with-node-js-75129f391c9b)
+
 ### Problem: Maintain a single instance of the Logger class
 
     tsc && node dist/creational/singleton/problem/index.js
